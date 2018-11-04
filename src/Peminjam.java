@@ -10,9 +10,9 @@
  */
 public class Peminjam {
     private String nama;
-    private int  noHp;
+    private String  noHp;
 
-    public Peminjam(String nama, int noHp) {
+    public Peminjam(String nama, String noHp) {
         this.nama = nama;
         this.noHp = noHp;
     }
@@ -21,7 +21,7 @@ public class Peminjam {
         this.nama = nama;
     }
 
-    public void setNoHp(int noHp) {
+    public void setNoHp(String noHp) {
         this.noHp = noHp;
     }
 
@@ -29,7 +29,7 @@ public class Peminjam {
         return nama;
     }
 
-    public int getNoHp() {
+    public String getNoHp() {
         return noHp;
     }
     
