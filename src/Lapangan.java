@@ -46,8 +46,8 @@ public class Lapangan {
     public String info(){
         String info = "";
         info += "Main di Lapangan Berapa : " + this.lapBrp + "\n";
-        info += "Nama/Tim Peminjam: " + this.pinjam + "\n";
-        info += "Peminjaman Pada Saat: " + this.time + "\n"; 
+        info += "Nama/Tim Peminjam: \n" + this.pinjam.info() + "\n";
+        info += "Peminjaman Pada Saat: \n" + this.time.info() + "\n"; 
         return info;
     }  
 }

@@ -35,8 +35,8 @@ public class Peminjam {
     
     public String info(){
         String info = "";
-        info += "Nama Peminjam : " + this.nama + "\n";
-        info += "Nama Peminjam : " + this.nama + "\n";        
+        info += "Nama Peminjam          : " + this.nama + "\n";
+        info += "Nomor Hp Peminjam      : " + this.noHp + "\n";        
         return info;
     }
 }
