@@ -9,5 +9,34 @@
  * @author khosy
  */
 public class Peminjam {
+    private String nama;
+    private int  noHp;
+
+    public Peminjam(String nama, int noHp) {
+        this.nama = nama;
+        this.noHp = noHp;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setNoHp(int noHp) {
+        this.noHp = noHp;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public int getNoHp() {
+        return noHp;
+    }
     
+    public String info(){
+        String info = "";
+        info += "Nama Peminjam : " + this.nama + "\n";
+        info += "Nama Peminjam : " + this.nama + "\n";        
+        return info;
+    }
 }
