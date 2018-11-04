@@ -37,9 +37,6 @@ public class Main {
         bayar2.setHargaPerJam(200000);
         bayar2.setTime(time2);
         int pembayaranFull = bayar2.pembayaranFull();
-        System.out.println(bayar2.info());
-                
-        
+        System.out.println(bayar2.info());  
     }
-    
 }

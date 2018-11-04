@@ -31,10 +31,7 @@ public class Pembayaran {
 
     public int getHargaPerJam() {
         return hargaPerJam;
-    }
-    
-    
-    
+    } 
        
     public int pembayaranFull(){
         int wkt = this.time.pesanBrpJam;
@@ -58,8 +55,5 @@ public class Pembayaran {
             System.out.println("Anda Harus memilih tipe Pembayaran");
         }
         return info;
-    }   
-       
-      
-       
+    }         
 }
