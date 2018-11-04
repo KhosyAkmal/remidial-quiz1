@@ -50,7 +50,7 @@ public class Pembayaran {
     public String info(){
         String info = "";
         if (bayarDp == PembayaranDP()){
-            info += "Permbayaran DP        : " + this.PembayaranDP() + "\n"+ "Anda harus membayar sisanya";
+            info += "Permbayaran DP                    : " + this.PembayaranDP() + "\n"+ "Total yang Harus Anda Bayarkan    : "+this.PembayaranDP()*2;
             
         } else if(bayarFull == pembayaranFull()){
             info += "Permbayaran Full        : " + this.pembayaranFull()+ "\n";

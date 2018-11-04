@@ -25,9 +25,9 @@ public class Main {
         int PembayaranDP = bayar1.PembayaranDP();
         System.out.println(bayar1.info());
         
-        System.out.println("=========================================================");
+        System.out.println("===========================================================");
         System.out.println("");
-        System.out.println("=========================================================");
+        System.out.println("===========================================================");
         
         Peminjam akmal = new Peminjam("Akmal", "08125503367");
         Waktu time2 = new Waktu(4, "Senin, 13-08-18", "Jam 6 Sore - 10 Malam");
