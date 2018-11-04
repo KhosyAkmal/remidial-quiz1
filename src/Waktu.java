@@ -9,14 +9,14 @@
  * @author khosy
  */
 public class Waktu {
-    private int pesanBrpJam;
+    public int pesanBrpJam;
     private String hari;
-    private String Jam;
+    private String jam;
 
-    public Waktu(int pesanBrpJam, String hari, String Jam) {
+    public Waktu(int pesanBrpJam, String hari, String jam) {
         this.pesanBrpJam = pesanBrpJam;
         this.hari = hari;
-        this.Jam = Jam;
+        this.jam = jam;
     }
 
     public void setPesanBrpJam(int pesanBrpJam) {
@@ -27,8 +27,8 @@ public class Waktu {
         this.hari = hari;
     }
 
-    public void setJam(String Jam) {
-        this.Jam = Jam;
+    public void setJam(String jam) {
+        this.jam = jam;
     }
 
     public int getPesanBrpJam() {
@@ -40,14 +40,14 @@ public class Waktu {
     }
 
     public String getJam() {
-        return Jam;
+        return jam;
     }
     
     public String info(){
         String info = "";
         info += "Pesan Lapangan Untuk Berapa Jam    : " + this.pesanBrpJam + "\n";
         info += "Pada Hari/Tanggal Berapa           : " + this.hari + "\n";
-        info += "Jam Berapa?                        : " + this.Jam + "\n";        
+        info += "Jam Berapa?                        : " + this.jam + "\n";        
         return info;
     }
 }
